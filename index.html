@@ -3,10 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Tailwind-practice</title>
     <link rel="stylesheet" href="./dist/output.css" />
   </head>
-  <body>
-    <h1 class="text-3xl font-bold text-blue-600">Tailwind is working!</h1>
+
+  <body
+    class="bg-yellow-50 text-green-800 text-center min-h-screen flex justify-center items-center"
+  >
+    <div class="flex flex-col items-center gap-10 border-2 rounded-lg">
+      <h1 class="text-xl font-bold">Heading</h1>
+      <div
+        class="bg-purple-700 p-4 mt-4 w-50 h-50 border rounded-full shadow-lg hover:shadow-xl shadow-gray-600 transition duration-300"
+      >
+        Content
+      </div>
+      <div
+        class="bg-amber-500 pt-6 mt-6 h-20 border-2 border-black-400 w-64 hover:bg-red-600"
+      >
+        Text
+      </div>
+
+      <div class="bg-pink-300 p-4 mt-6 border w-64">This is Footer.</div>
+    </div>
   </body>
 </html>
