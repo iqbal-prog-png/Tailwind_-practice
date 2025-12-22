@@ -1,1 +1,7 @@
 @import "tailwindcss";
+.chakra {
+  background: repeating-conic-gradient(
+    #1e3a8a 0deg 5deg,
+    transparent 5deg 15deg
+  );
+}
