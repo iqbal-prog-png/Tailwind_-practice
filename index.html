@@ -10,8 +10,8 @@
   <body
     class="bg-yellow-50 text-gray-900 text-center min-h-screen flex flex-col items-center"
   >
-    <!-- ================= DAY 11 ================= -->
-    <!-- Topic: Layout, Hover, Shadow, Flex, Custom Shape -->
+    <!-- ================= Starting DAY 1 of Tailwind ================= -->
+    <!-- Topic: Basics Layout, Hover, Shadow, Flex, Custom Shape -->
 
     <div class="flex items-center gap-10 border-2 rounded-lg mt-5">
       <h1 class="text-xl font-bold ml-2">Heading</h1>
@@ -41,6 +41,68 @@
       <div class="bg-green-600 h-20"></div>
     </div>
 
-    <!-- ================= END DAY 11 ================= -->
+    <!-- ================= END DAY 1 ================= -->
+
+    <!-- ================= Starting DAY 2 of Tailwind ================= -->
+    <!-- Topic: Components(Navbar,Card,Button,Form,Footer) -->
+
+    <nav class="bg-black text-white mt-6 p-4 flex justify-center items-center">
+      <h1 class="text-xl font-bold">MyWebPage</h1>
+      <ul class="flex gap-6 p-4">
+        <li class="hover:text-yellow-400 cursor-pointer">Home</li>
+        <li class="hover:text-yellow-400 cursor-pointer">Products</li>
+        <li class="hover:text-yellow-400 cursor-pointer">About</li>
+        <li class="hover:text-yellow-400 cursor-pointer">Contact</li>
+      </ul>
+    </nav>
+
+    <div
+      class="bg-gray-200 w-64 p-4 rounded-lg shadow-lg shadow-black hover:shadow-xl mt-6"
+    >
+      <h2 class="text-lg font-bold">Card Title</h2>
+      <p class="text-gray-700 pt-2">This is a card component.</p>
+    </div>
+    <button
+      class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 cursor-pointer transition mt-6"
+    >
+      Click Me!
+    </button>
+
+    <!-- LOGIN FORM -->
+
+    <div
+      class="min-h-screen flex items-center justify-center bg-gray-300 mt-8 bg-[url('https://images.unsplash.com/photo-1678130941079-4dfd3c6b5402?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjE0fHxiYWNrZ3JvdW5kJTIwZm9yJTIwd2Vic2l0ZXxlbnwwfHwwfHx8MA%3D%3D')] bg-cover bg-center"
+    >
+      <form
+        class="bg-white/90 backdrop:backdrop-blur-sm p-6 rounded-lg shadow-lg w-80"
+      >
+        <h2 class="text-xl font-bold text-center mb-6">Login Page</h2>
+        <input
+          type="text"
+          placeholder="username"
+          class="w-full mb-3 p-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-400"
+        />
+
+        <input
+          type="password"
+          placeholder="Password"
+          class="w-full mb-4 p-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-400"
+        />
+
+        <button
+          class="w-full bg-blue-500 text-white py-2 rounded-3xl hover:bg-blue-700 cursor-pointer transition"
+        >
+          Login
+        </button>
+      </form>
+    </div>
+
+    <!-- Footer interface -->
+
+    <footer class="bg-black text-white p-4 text-center mt-6">
+      <p class="text-sum">&copy 2025 MyWebPage. All rights reserved.</p>
+    </footer>
+
+    <!-- ================= END DAY 2 ================= -->
   </body>
 </html>
