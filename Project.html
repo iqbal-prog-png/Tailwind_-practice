@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project_Tailwind</title>
+    <link rel="stylesheet" href="./dist/output.css" />
+  </head>
+  <body>
+    <body class="bg-gray-100">
+      <!-- Navbar -->
+      <nav class="bg-white shadow p-4 flex justify-between items-center">
+        <h1 class="text-xl font-bold text-blue-600">MyLanding</h1>
+        <ul class="flex gap-6">
+          <li class="hover:text-blue-500 cursor-pointer">Home</li>
+          <li class="hover:text-blue-500 cursor-pointer">Features</li>
+          <li class="hover:text-blue-500 cursor-pointer">Contact</li>
+        </ul>
+      </nav>
+
+      <!-- Hero Section -->
+      <section class="text-center py-20 bg-blue-600 text-white">
+        <h2 class="text-4xl font-bold mb-4">Build Faster with Tailwind</h2>
+        <p class="mb-6">Create modern websites easily</p>
+        <button
+          class="bg-white text-blue-600 px-6 py-2 rounded hover:bg-gray-200"
+        >
+          Get Started
+        </button>
+      </section>
+
+      <!-- Features -->
+      <section class="py-16 px-6 grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-white p-6 rounded shadow text-center">
+          <h3 class="font-bold text-xl mb-2">Fast</h3>
+          <p>Quick development using utility classes.</p>
+        </div>
+
+        <div class="bg-white p-6 rounded shadow text-center">
+          <h3 class="font-bold text-xl mb-2">Responsive</h3>
+          <p>Works on all screen sizes.</p>
+        </div>
+
+        <div class="bg-white p-6 rounded shadow text-center">
+          <h3 class="font-bold text-xl mb-2">Modern</h3>
+          <p>Clean and modern UI design.</p>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="bg-gray-800 text-white text-center p-4">
+        © 2025 MyLanding. All rights reserved.
+      </footer>
+    </body>
+  </body>
+</html>
